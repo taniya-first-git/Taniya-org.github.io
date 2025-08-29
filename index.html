@@ -28,21 +28,47 @@
     p {
       margin: 1rem 0;
     }
+    nav {
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="#joy">Joy</a>
+    <a href="#nature">Nature</a>
+    <a href="#favorites">Favorites</a>
+  </nav>
   <header>
     <h1>Why I Love Animals</h1>
   </header>
   <main>
-    <h2>Animals Bring Joy</h2>
+    <h2 id="joy">Animals Bring Joy</h2>
     <p>Animals have always been a source of happiness and comfort for me. Their unconditional love and unique personalities make them truly special.</p>
     
-    <h2>Respect for Nature</h2>
+    <h2 id="nature">Respect for Nature</h2>
     <p>I believe that animals are an essential part of our ecosystem. They teach us the importance of coexistence and respecting all forms of life.</p>
     
-    <h2>My Favorite Animals</h2>
+    <h2 id="favorites">My Favorite Animals</h2>
     <p>Some of my favorite animals include dogs, cats, and elephants. Each of them has qualities that I admire and love.</p>
+    <div class="animal-images">
+      <img src="images/dog.jpg" alt="A cute dog" class="animal-img">
+      <img src="images/cat.jpg" alt="A lovely cat" class="animal-img">
+      <img src="images/elephant.jpg" alt="A majestic elephant" class="animal-img">
+    </div>
   </main>
 </body>
 </html>

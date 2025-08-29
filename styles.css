@@ -64,3 +64,22 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.animal-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.animal-img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.animal-img:hover {
+    transform: scale(1.1);
+}
